@@ -1,0 +1,22 @@
+Day 4:
+
+Spring cloud:
+
+
+Rabbit MQ:
+How one service is communicating with other service:
+Design Pattern : Event choreography :		Messeging Queue
+Download RabbitMQ
+
+open : C:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.18\ebin
+
+open cmd: 
+
+rabbitmq-plugins enable rabbitmq_managemnt
+
+
+
+Zipkin is used for tracing :
+docker run -d -p 9411:9411 openzipkin/zipkin
+
+Hystrix :  used for failure control . it delegates the request to other instance running in container
